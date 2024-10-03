@@ -1,1 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-image: url('https://i.ibb.co/f0d37VL/images.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: red;
+}
 
+input[type="number"] {
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#output {
+    margin-top: 20px;
+}
+
+#bmiValue {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#bmiCategory {
+    font-size: 20px;
+}
